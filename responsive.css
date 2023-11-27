@@ -1,0 +1,66 @@
+@media (max-width: 858px){
+.section{
+    width: 100%;
+    height: 70vh;
+}
+.section .slide-text .text{
+    /* line-height: 2rem; */
+    font-size: 1.5rem;
+    color: rgb(241, 149, 29);
+}
+.slider{
+    flex-direction: column;
+}
+.slide-1{
+    width: 100%;
+}
+.slide-1 .slide-text{
+    text-align: center;
+    font-size: 1rem;
+}
+.dinners{
+    width: 100%;
+    overflow: hidden;
+}
+.dinners h1{
+    font-size: 0.8rem;
+}
+.dinners p{
+    width: 95%;
+    font-size: 13px;
+}
+.top-footer{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+.footer-all{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+} 
+.footer-all .footer-class{
+    width: 100%;
+    height: 30%;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.footer-class{
+    width: 100%;
+}
+.right-footer P{
+    width: 95%;
+    font-size: 0.8rem;
+}
+.med-footer a i{
+    font-size: 1.5rem;
+}
+
+
+
+
+}

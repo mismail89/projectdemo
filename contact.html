@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+          <h3>Call:  0141 611 1581<br>Email:  clearbusinessbyadrian@gmail.com</h3>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="images/blog-3.jpg" style="width:100%">
+          </div>
+          <div class="column">
+            <form action="/action_page.php" onsubmit="sendEmail(); reset(); return false">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="firstname" placeholder="Your name..">
+              <label for="lname">E mail</label>
+              <input type="text" id="email" name="email" placeholder="E mail">
+              <!-- <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select> -->
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Message" style="height:170px"></textarea>
+              <input type="submit" value="Submit" onclick="sendemail(); ">
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <!-- footer page -->
+    <footer class="bg-body-tertiary text-center">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+          data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #55acee;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+    
+          <!-- Google -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #dd4b39;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca;"
+            href="#!"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2023 Developer:
+        <a class="text-body" href="mailto:Webleghari@gmail.com">Webleghari@gmail.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+     
+      <script src="https://kit.fontawesome.com/d8cf5dbf73.js" crossorigin="anonymous"></script>
+      
+      <script src="https://smtpjs.com/v3/smtp.js">
+      </script>
+   
+      <script type="text/javascript">
+          function sendEmail() {
+             // Email.send({
+                 // Host: "smtp.gmail.com",
+                  //Username: "Webleghari@gmail.com",
+                 // Password: "",
+                 // To: "",
+                 // From: document.getElementById('email').value,
+                 // Subject: "delievery",
+                 // Body: document.getElementById('subject').value,
+             // })
+                  //.then(function (message) {
+                      //alert("mail sent successfully")
+                  //});
+                  alert("There is some error please call or email in last of page")
+          }
+
+
+      </script>
+</body>
+</html>
